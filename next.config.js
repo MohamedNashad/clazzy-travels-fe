@@ -5,15 +5,15 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
-    async redirects() {
-        return [
-            {
-                source: '/', // Match the root path
-                destination: '/home', // Redirect to /home
-                permanent: false, // Use false to indicate a temporary redirect
-            },
-        ];
-    },
+    // async redirects() {
+    //     return [
+    //         {
+    //             source: '/', // Match the root path
+    //             destination: '/home', // Redirect to /home
+    //             permanent: false, // Use false to indicate a temporary redirect
+    //         },
+    //     ];
+    // },
 };
 
 module.exports = nextConfig;
