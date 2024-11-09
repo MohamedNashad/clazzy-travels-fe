@@ -1,2 +1,6 @@
-# Redirects from what the browser requests to what we serve
-/home
+# Redirect to login page for unauthorized access (handled by Next.js)
+# This won't trigger automatically; Next.js middleware will manage auth.
+# However, this sets up a base for fallbacks if needed.
+
+# Redirect to Next.js fallback function for dynamic routing
+/*    /.netlify/functions/next-render   200
