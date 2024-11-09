@@ -10,7 +10,7 @@ export const ApiModules = {
 };
 
 export const FrontEndRoutes = {
-    HOME_URL: '/',
+    HOME_URL: '/home',
     DASHBOARD_URL: '/dashboard',
     LOGIN_URL: '/auth/login',
     REGISTER_URL: '/auth/register',

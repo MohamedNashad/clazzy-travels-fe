@@ -9,7 +9,7 @@ const Home = () => {
 
     useEffect(() => {
         // Redirect to /home on initial load
-        router.replace(FrontEndRoutes?.DASHBOARD_URL);
+        router.replace(FrontEndRoutes?.HOME_URL);
     }, []);
 
     return null; // Optional
