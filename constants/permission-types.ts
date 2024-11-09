@@ -1,0 +1,12 @@
+export const PERMISSION_TYPES = {
+    PERMISSION: 'PERMISSION',
+    ROLE: 'ROLE',
+    USER: 'USER',
+    CLIENT: 'CLIENT',
+    EMPLOYEE: 'EMPLOYEE',
+    MEMBER: 'MEMBER',
+    STUDENT: 'STUDENT',
+    REPORT: 'REPORT',
+    SETTING: 'SETTING',
+    AUTH: 'AUTH',
+};
