@@ -1,2 +1,2 @@
-# Redirect all routes to Next.js handler
-/*    /.netlify/functions/next-render   200
+# Redirects from what the browser requests to what we serve
+/home
