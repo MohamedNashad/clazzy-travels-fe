@@ -4,10 +4,6 @@ import { Metadata } from 'next';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
-export const metadata: Metadata = {
-    title: 'CLAZZY TR',
-};
-
 const Home = () => {
     const router = useRouter();
 
