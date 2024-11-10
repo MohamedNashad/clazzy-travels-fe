@@ -14,6 +14,10 @@ const nextConfig = {
             },
         ];
     },
+    // Adding the netlify adapter
+    experimental: {
+        outputStandalone: true,
+    },
 };
 
 module.exports = nextConfig;
