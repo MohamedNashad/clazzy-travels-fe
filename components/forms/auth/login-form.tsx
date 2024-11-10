@@ -42,7 +42,7 @@ const LoginForm = () => {
             setLoading(false);
             showToast({ message: 'Sign in Successfull!', icon: 'success', position: 'top-end' });
             await queryClient.invalidateQueries(QueryKeyConstants.GET_VALIDATE_TOKEN_KEY);
-            router.push(FrontEndRoutes.DASHBOARD_URL); // Redirect after token validation
+            router.push(FrontEndRoutes.HOME_URL); // Redirect after token validation
         },
         onError: (error: Error) => {
             showToast({ message: error.message, icon: 'error', position: 'top-end' });
