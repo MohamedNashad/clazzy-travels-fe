@@ -1,0 +1,35 @@
+# netlify.toml configuration file
+
+[build]
+  publish = "out"  # Adjust this if your build output folder is different
+  command = "next build && next export"
+
+[[redirects]]
+  from = "/dashboard"
+  to = "/.netlify/functions/next_middleware"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/permissions"
+  to = "/.netlify/functions/next_middleware"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/roles"
+  to = "/.netlify/functions/next_middleware"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/users"
+  to = "/.netlify/functions/next_middleware"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/enquiries"
+  to = "/.netlify/functions/next_middleware"
+  status = 200
+  force = true
