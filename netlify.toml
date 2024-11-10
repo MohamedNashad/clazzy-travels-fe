@@ -1,5 +1,11 @@
 [[redirects]]
   from = "/dashboard"
-  to = "https://clazzy-travels.netlify.app/dashboard"
-  status = 301
+  to = "/.netlify/functions/next_middleware"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/permissions"
+  to = "/.netlify/functions/next_middleware"
+  status = 200
   force = true

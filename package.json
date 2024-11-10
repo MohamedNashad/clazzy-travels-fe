@@ -19,6 +19,7 @@
         "@hookform/resolvers": "^3.9.0",
         "@mantine/core": "^5.10.5",
         "@mantine/hooks": "^5.10.5",
+        "@netlify/next": "^1.4.9",
         "@reduxjs/toolkit": "^1.9.1",
         "@tippyjs/react": "^4.2.6",
         "@types/node": "18.11.18",

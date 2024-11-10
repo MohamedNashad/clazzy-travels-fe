@@ -1,1 +1,5 @@
-/dashboard  https://clazzy-travels.netlify.app/dashboard  301
+/dashboard      /.netlify/functions/next_middleware  200!
+/permissions    /.netlify/functions/next_middleware  200!
+/roles          /.netlify/functions/next_middleware  200!
+/users          /.netlify/functions/next_middleware  200!
+/enquiries      /.netlify/functions/next_middleware  200!
