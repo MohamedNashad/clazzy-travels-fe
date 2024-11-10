@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/dashboard"
+  to = "/https://clazzy-travels.netlify.app/dashboard"
+  status = 301
+  force = false
+  query = {path = ":path"}
+
