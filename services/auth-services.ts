@@ -32,20 +32,18 @@ export const signIn = async (formData: LoginFormData) => {
 
     // Save the userId and token in sessionStorage
     sessionStorage.setItem('userId', body.userId);
-    // sessionStorage.setItem('auth_token', body.token);
 
     return body;
 };
 
 export const signOut = async () => {
-    // Remove the userId and token from sessionStorage
-    sessionStorage.removeItem('userId');
-    // sessionStorage.removeItem('auth_token');
-
     const response = await fetch(`${ApiRouteConstants.BASE_API_URL}/${ApiRouteConstants.MODULE}/${ApiModules.AUTH}/${AuthApiEndpoints.LOGOUT_URL}`, {
         credentials: 'include',
         method: 'POST',
     });
+    
+    // Remove the userId and token from sessionStorage    
+    sessionStorage.removeItem('userId');
 
     if (!response.ok) {
         throw new Error('Error during sign out');
